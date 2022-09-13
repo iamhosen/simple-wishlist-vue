@@ -16,4 +16,10 @@ export default {
 .container {
   width: 50%;
 }
+
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+}
 </style>

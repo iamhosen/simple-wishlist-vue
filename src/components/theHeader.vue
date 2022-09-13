@@ -62,4 +62,10 @@ nav .container-fluid {
 a.all {
   cursor: pointer;
 }
+
+@media (max-width: 800px) {
+  nav .container-fluid {
+    width: 100%;
+  }
+}
 </style>
